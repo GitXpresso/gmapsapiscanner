@@ -49,8 +49,8 @@ Used for determining whether a leaked/found Google Maps API Key is vulnerable to
 # Installing Google Maps Api Scanner Manually
 ```
 git clone https://github.com/GitXpresso/googlemapapiscanner.git
-cd googlemapapiscammer
-python 
+cd googlemapapiscanner
+python scanner.py
 ```
 # Docker
 To run this script in a Dockerized Alpine Linux environment, use the following commands:
