@@ -46,7 +46,12 @@ Used for determining whether a leaked/found Google Maps API Key is vulnerable to
 - If you find any Google Maps API's which are not mentioned in this document/script, create an issue with details so I can also add them.
 - Special thanks to [Yatin](https://twitter.com/ysirpaul) for his contributions on both discovery of additional API's & cost information!
 
-
+# Installing Google Maps Api Scanner Manually
+```
+git clone https://github.com/GitXpresso/googlemapapiscanner.git
+cd googlemapapiscammer
+python 
+```
 # Docker
 To run this script in a Dockerized Alpine Linux environment, use the following commands:
 ```
