@@ -53,3 +53,9 @@ To run this script in a Dockerized Alpine Linux environment, use the following c
 docker build -t google_maps_api_scanner .
 docker run --rm -v $(pwd):/opt/html -i docker.io/library/google_maps_api_scanner <api key>
 ```
+# Docker Command With the api key
+This key is not tested so I dont know if it works
+```
+docker build -t google_maps_api_scanner .
+docker run --rm -v $(pwd):/opt/html -i docker.io/library/google_maps_api_scanner <AIzaSyDRYczTDT6kSz-bWGrLGh6WCaBgUSL-1Dk>
+``` 
